@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel= "stylesheet" href= "w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            width: 90%;
+            margin:0 auto;
+        }
+        .experience{
+            column-count: 3;
+            column-gap: 40px;
+            column-rule: 1px solid lightgreen;
+        }
+        h2{
+            column-span: all;
+        }
+        ul.a {
+            list-style-type: circle;
+        }
+        p{
+            font-size: medium;
+        }
+    </style>
+    <title>Resume</title>
+    <script>
+        function sideMenu() {
+            var x = document.getElementById("idsidebar");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class = "w3-bar w3-green">
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Profile</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Education</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Experience</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Language</a>
+        <a href="#" class = "w3-bar-item w3-button w3-hide-small w3-right">Skills</a>
+        <a href="javascript:void(0)" class = "w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"  onClick= "sideMenu()">&#9776</a>
+    </div>
+    <div id= "idsidebar" class = "w3-bar-block w3-green w3-hide w3-hide-large">
+        <a href="#" class = "w3-bar-item w3-button w3-left">Profile</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Education</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Experience</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Language</a>
+        <a href="#" class = "w3-bar-item w3-button w3-left">Skills</a>
+    </div>
+    <header class="w3-header w3-container w3-green w3-padding-32 w3-center">
+        <h1>Resume</h1>
+    </header>
+    <div id="profile" class="w3-container w3-row w3-lightgrey w3-padding-32">
+        <div class ="w3-container w3-third w3-center"style: font-size="24">
+            <img src="IC Photo.jpeg" style="height: 150px; width: 120px; background-size: cover;">
+            <p>CHONG QI JUN</p>
+    </div>    
+    <div class="w3-container w3-twothird">
+        <p>A fresh graduate student in Information Technology field and majoring in software engineering with passionate in software development. 
+           More than 2 years working experience and seeking for a chance to enrich my working experience. 
+        </p>
+    </div>
+</div> 
+    <div id="education" class="w3-container w3-row w3-green">
+    <div class ="w3-container w3-twothird">
+        <ul>
+            <li><b>Primary School</b>
+                <br>2007 - 2012<br>SJKC Choong Hua 2 Bidor    
+            </li>
+            <li><b>Secondary School</b>
+                <br>2013 - 2017<br>SMk  Choong Hua Bidor<br>Awarded certification of SPM    
+            <li><b>Tertiery School</b>
+                <br>2018 - 2019<br>Kolej Tingkatan Enam Tapah<br>Awarded certification of STPM
+            <li><b>Undergraduate</b>
+                <br>2020 - 2024<br>Bachelor of Information Technology, University Utara Malaysia (UUM)
+        </ul>
+    </div>
+        <div class="w3-container w3-third fa fa-book" style= "font-size: 128px;">
+            <h2> Education</h2>
+        </div>
+    </div>  
+    <div id="experience" class="w3-container w3-row">
+    <br>
+        <div class="experience w3-container w3-container w3-card w3-margin-bottom">
+        <h2>Working Experience</h2>
+        <b>Waiter at Restaurant Blue Dragon</b>
+        <p>Location: Kuala Lumpur</p>
+        <p>Duration: NOV 2016 - DEC 2016</p>
+        <ul class = "a">
+            <li>Success to overcome various types of unexpected situation</li>
+            <li>Able dealing with different types of customers</li>
+            <li>Maintain good relationship with colleague</li><br>
+        </ul>
+        <b>Slot Assistant at Genting Malaysia</b>
+        <p>Location: Pahang</p>
+        <p>Duration: DEC 2017 - MAR 2016</p>
+        <ul class = "a">
+             <li>Able to explain how the slot machines operate and the play and pay rules to customers</li>
+             <li>Managed to resolve distinct problems and situation </li>
+             <li>Always follow the SOP </li>
+             <li>Never late for work </li> 
+        </ul>       
+        <b>Management Trainee at Kaolin (Malaysia) Sdn Bhd </b>
+        <p>Location: Perak</p>
+        <p>Duration: JAN 2020 - AUG 2020</p>
+        <ul class = "a">
+            <li>Develop real time data entry system for QCA department</li>
+            <li>Develop QR Scan in and out for warehouse management</li>
+            <li>Minimize the worker workload by digitizing</li>
+        </ul>
+    </div>
+    
+    </div>
+   
+</div> 
+    
+<div id="languages" class="w3-container w3-container w3-row">
+
+    <div class="languages w3-container w3-green">
+        <b><h2>Languages</h2></b>
+       </div>
+       <div class="w3-container w3-card w3-margin-bottom">
+       <p>Chinese</p>
+       <div class="w3-light-grey w3-round-xlarge">
+           <div class="w3-container w3-center w3-round-xlarge w3-blue" style="height:20px;width:100%">100%</div>
+       </div>
+       <p>English</p>
+       <div class="w3-light-grey w3-round-xlarge">
+           <div class="w3-container w3-center w3-round-xlarge w3-blue" style="height:20px;width:80%">80%</div>
+       </div>
+
+       <p>Malay</p>
+       <div class="w3-light-grey w3-round-xlarge">
+           <div class="w3-container w3-center w3-round-xlarge w3-blue" style="height:20px;width:90%">90%</div>
+       </div>
+
+       <p>Cantonese</p>
+       <div class="w3-light-grey w3-round-xlarge">
+           <div class="w3-container w3-center w3-round-xlarge w3-blue" style="height:20px;width:70%">70%</div>
+        </div>
+        <p>Hakka</p>
+        <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="height:20px;width:50%">50%</div>
+        </div>
+        <br> 
+        </div>
+        </div>
+       
+        <div id="skills" class="w3-container w3-row">
+            <div class="skills w3-padding-10 w3-container w3-green">
+                <b><h2>Skills</h2></b>
+                </div>
+                <div class>
+                    <div class="w3-container w3-card w3-margin-bottom">
+    
+                        <div class="w3-container w3-half">
+    
+                            <p class="w3-large w3-text-theme"><b>Microsoft</b></p>
+    
+                            <p>Microsoft Excel</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:60%">60%</div>
+                            </div>
+                            <p>Microsoft Word</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">80%</div>
+                            </div>
+                            <p>Microsoft PowerPoint</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">90%</div>
+                            </div>
+                            <br>
+                        </div>
+    
+                        <div class="w3-container w3-half">
+    
+                            <p class="w3-large w3-text-theme"><b>Programming</b></p>
+                            <p>Java</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%</div>
+                            </div>
+                            <p>JavaScript</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:20%">20%</div>
+                            </div>
+                            <p>Flutter</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:20%">20%</div>
+                            </div>
+                            <p>Html</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:20%">20%</div>
+                            </div>    
+                            <p>CSS</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:20%">20%</div>
+                            </div>
+                            <br>    
+                            </div>                           
+                        </div>
+    <footer>
+        <p class="w3-container w3-row w3-padding-12 w3-green">Copyright Chong Qi Jun&copy;</p>
+    </footer>
+</body>
+
+ </html>
